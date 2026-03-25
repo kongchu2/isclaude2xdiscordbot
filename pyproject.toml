@@ -1,0 +1,9 @@
+[project]
+name = "isclaudex2discordbot"
+version = "1.0.0"
+description = "Discord bot that shows Claude 2x usage status"
+requires-python = ">=3.11"
+dependencies = [
+    "discord.py>=2.3.0",
+    "aiohttp>=3.9.0",
+]

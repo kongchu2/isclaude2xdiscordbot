@@ -1,4 +1,4 @@
-# isclaudex2discordbot
+# isclaude2xdiscordbot
 
 A Discord bot that shows whether Claude usage is currently 2x.
 
@@ -12,8 +12,8 @@ A Discord bot that shows whether Claude usage is currently 2x.
 ## Self-hosting
 
 ```bash
-git clone https://github.com/kongchu2/isclaudex2discordbot.git
-cd isclaudex2discordbot
+git clone https://github.com/kongchu2/isclaude2xdiscordbot.git
+cd isclaude2xdiscordbot
 uv venv && uv pip install -e .
 DISCORD_BOT_TOKEN=your_token_here uv run python bot.py
 ```

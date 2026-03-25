@@ -1,5 +1,5 @@
 [project]
-name = "isclaudex2discordbot"
+name = "isclaude2xdiscordbot"
 version = "1.0.0"
 description = "Discord bot that shows Claude 2x usage status"
 requires-python = ">=3.11"

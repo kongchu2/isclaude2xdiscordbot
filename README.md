@@ -2,7 +2,7 @@
 
 A Discord bot that shows whether Claude usage is currently 2x.
 
-- **2x active** → Bot status: 🟢 Online, `"2x ends in 2h 07m"`
+- **2x active** → Bot status: 🟢 Online, `"it's 2x! 2x ends in 2h 07m"`
 - **2x inactive** → Bot status: 🔴 Do Not Disturb, `"Next 2x in 1h 30m"`
 
 ## Add to your server

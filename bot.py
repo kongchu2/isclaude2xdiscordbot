@@ -59,7 +59,7 @@ class IsClaudeX2Bot(discord.Client):
         if is_2x:
             seconds = data.get("2xWindowExpiresInSeconds", 0)
             status = discord.Status.online
-            activity_text = f"2x ends in {_fmt_hm(seconds)}"
+            activity_text = f"it's 2x! 2x ends in {_fmt_hm(seconds)}"
         else:
             seconds = data.get("standardWindowExpiresInSeconds", 0)
             status = discord.Status.dnd

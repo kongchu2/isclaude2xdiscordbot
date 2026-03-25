@@ -1,27 +1,22 @@
 # isclaudex2discordbot
 
-Claude 사용량이 2배인지 알려주는 Discord 봇.
+A Discord bot that shows whether Claude usage is currently 2x.
 
-- **2x 활성** → 봇 상태: 🟢 Online, `"2x 종료까지 2h 07m"`
-- **2x 비활성** → 봇 상태: 🔴 Do Not Disturb, `"다음 2x까지 1h 30m"`
+- **2x active** → Bot status: 🟢 Online, `"2x ends in 2h 07m"`
+- **2x inactive** → Bot status: 🔴 Do Not Disturb, `"Next 2x in 1h 30m"`
 
-## Setup
+## Add to your server
+
+[Invite the bot](https://discord.com/oauth2/authorize?client_id=1486301903825666159&permissions=0&integration_type=0&scope=bot)
+
+## Self-hosting
 
 ```bash
-# 1. Clone
-git clone https://github.com/your-username/isclaudex2discordbot.git
+git clone https://github.com/kongchu2/isclaudex2discordbot.git
 cd isclaudex2discordbot
-
-# 2. Install
 uv venv && uv pip install -e .
-
-# 3. Run
 DISCORD_BOT_TOKEN=your_token_here uv run python bot.py
 ```
-
-## API
-
-[isclaude2x.com/json](https://isclaude2x.com/json) 엔드포인트를 60초마다 폴링합니다.
 
 ## Credits
 

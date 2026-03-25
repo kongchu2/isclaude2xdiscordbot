@@ -18,15 +18,3 @@ uv venv && uv pip install -e .
 # 3. Run
 DISCORD_BOT_TOKEN=your_token_here uv run python bot.py
 ```
-
-## Discord Bot 생성
-
-1. [Discord Developer Portal](https://discord.com/developers/applications)에서 Application 생성
-2. Bot 탭에서 토큰 발급
-3. OAuth2 → URL Generator에서 `bot` scope 선택 후 서버에 초대
-
-별도 권한은 필요하지 않습니다.
-
-## API
-
-[isclaude2x.com/json](https://isclaude2x.com/json) 엔드포인트를 60초마다 폴링합니다.

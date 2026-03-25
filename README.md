@@ -18,3 +18,11 @@ uv venv && uv pip install -e .
 # 3. Run
 DISCORD_BOT_TOKEN=your_token_here uv run python bot.py
 ```
+
+## API
+
+[isclaude2x.com/json](https://isclaude2x.com/json) 엔드포인트를 60초마다 폴링합니다.
+
+## Credits
+
+Powered by [isclaude2x.com](https://isclaude2x.com/) by [@mehulmpt](https://github.com/mehulmpt/isclaude2x).
